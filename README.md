@@ -1,2 +1,2 @@
 # Shallow Neural Hawkes Experiment
- All codes for results in experiment section
+ Code for the results in experiment section
