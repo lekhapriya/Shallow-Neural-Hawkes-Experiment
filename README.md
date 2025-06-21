@@ -1,2 +1,4 @@
-# Shallow Neural Hawkes Experiment
- Code for the results in experiment section
+# Shallow Neural Hawkes 
+([Click here to read the paper](https://doi.org/10.1016/j.jocs.2022.101754))
+
+The Multi-dimensional Hawkes Process (MHP) is a class of self and mutually exciting point processes that find many applications–from predicting earthquakes to modelling order books in high-frequency trading. This paper makes two significant contributions; we first find an unbiased estimator for the gradient of the Hawkes process’s log-likelihood estimator. The estimator enables the efficient implementation of the stochastic gradient descent method for the maximum likelihood estimation. The second contribution is that we propose a specific neural network for the non-parametric estimation of the underlying kernels of the MHP. We evaluate the proposed model on synthetic and natural datasets and find the method has comparable or better performance than existing estimation methods. The use of neural networks for modelling the excitation kernel ensures that we do not compromise on the Hawkes model’s interpretability. At the same time, the proposed algorithm has the flexibility to estimate any non-standard Hawkes excitation kernel.
